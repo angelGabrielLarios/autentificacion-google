@@ -1,0 +1,69 @@
+:root {
+    --main_color: #3841e9;
+    --second_color: #2c91b4;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(45deg, white, var(--main_color));
+}
+.card-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    gap: 2rem;
+    width: 90%;
+    height: 60vh;;
+    max-width: 400px;
+    padding: 2rem;
+    /* background-color: red; */
+    border-radius: .8rem;
+    box-shadow: 8px 10px 5px 0px rgba(0, 0, 0, 0.121);
+}
+
+.card-login__container-ico {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    color: var(--main_color);
+    border-radius: inherit;
+    /* border: 2px solid;
+    box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.121); */
+}
+.card-login__icon {
+    font-size: 8rem;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .6rem;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: var(--main_color);
+    color: white;
+    border-radius: inherit;
+    border: none;
+    transition: background-color, color, border, .3s ease-in;
+}
+
+.button__icon {
+    font-size: 1.5rem;
+    margin-right: .5rem;
+}
+.button:hover {   
+    background-color: white;
+    color: var(--main_color);
+    border: 2px solid;
+}
