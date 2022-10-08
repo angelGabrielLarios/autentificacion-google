@@ -91,3 +91,5 @@ googleLogin.addEventListener('click', event => {
 });
 
 const miNombre = `Angel Gabriel Larios Acosta`
+
+const frase = 'Aprendiendo un git un software de control de versiones'
