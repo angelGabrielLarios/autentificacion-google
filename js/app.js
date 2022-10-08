@@ -90,8 +90,4 @@ googleLogin.addEventListener('click', event => {
         })
 });
 
-
-/* googleLogin.addEventListener('click', event => {
-    
-    
-}); */
+const miNombre = `Angel Gabriel Larios Acosta`
